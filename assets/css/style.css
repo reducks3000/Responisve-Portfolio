@@ -50,6 +50,7 @@ body {
     color: #ffffff;
     background: #7c7373;
     border-bottom: 2px solid #a32121;
+    text-decoration: none;
   }
   
   #logo {
@@ -184,7 +185,13 @@ body {
     .main-section {background: green
     }
     
-  @media only screen and (max-width: 640px) {
+  @media (max-width: 640px) {
     .main-section {background: red;}
+    #chris {
+      position: static;
+      z-index: 99;
+     }
+
+
   }
   }
