@@ -124,6 +124,7 @@ body {
     width: 200px;
     margin: 10px 0 25px;
     overflow: auto;
+    margin: 0 auto;
   }
   
   .folio img {
